@@ -162,6 +162,9 @@
                         var finalURL = targetURL + '?' + queryString;
                         window.location.replace(finalURL)
                     }
+                    else if(response["valid"] === "email_error"){
+                        alert("This email is already in use. Please try another email.");
+                    }
                     else{
                         alert("There was an internal server error while creating your account. Please try again in a few moments.");
                     }
