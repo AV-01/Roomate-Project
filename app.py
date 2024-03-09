@@ -1,4 +1,4 @@
-from flask import Flask, flash, request, redirect, url_for, render_template, jsonify
+from flask import Flask, flash, request, redirect, url_for, render_template, jsonify, redirect
 import os
 import csv
 
@@ -6,6 +6,10 @@ app = Flask(__name__)
 
 @app.route('/')
 def main():
+    return redirect('/home')
+
+@app.route('/home')
+def home():
     return render_template('home.html')
 
 @app.route('/sign-up')
