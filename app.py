@@ -14,7 +14,7 @@ def home():
 
 @app.route('/sign-up')
 def sign_up():
-    return render_template('new-sign-up.html')
+    return render_template('sign-up.html')
 
 @app.route('/create_account')
 def create_account():
@@ -22,14 +22,14 @@ def create_account():
     password = request.args.get('password')
     email = request.args.get('email')
     try:
-        os.mkdir(f"static/user_data/{email}")
+        os.mkdir(f"static/data/user_data/{email}")
     except:
         return {"valid":"email_error"}
     fields = ['username', 'password', 'email']
     data = [[
         username, password, email
     ]]
-    with open(f"static/user_data/{email}/basic_data.csv", 'w',newline='', encoding='utf-8') as csv_file:
+    with open(f"static/data/user_data/{email}/basic_data.csv", 'w',newline='', encoding='utf-8') as csv_file:
         csvwriter = csv.writer(csv_file)
         csvwriter.writerow(fields)
         csvwriter.writerows(data)
