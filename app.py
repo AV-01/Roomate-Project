@@ -14,7 +14,7 @@ def home():
 
 @app.route('/sign-up')
 def sign_up():
-    return render_template('sign-up.html')
+    return render_template('new-sign-up.html')
 
 @app.route('/create_account')
 def create_account():
