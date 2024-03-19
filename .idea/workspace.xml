@@ -5,16 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="41d4da47-3494-4300-8364-377bfd658ba9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/static/scripts/sign-up.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/user_data/a@gmail.com/basic_data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/static/data/user_data/a@gmail.com/basic_data.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/user_data/akshaya.msnath@gmail.com/basic_data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/static/data/user_data/akshaya.msnath@gmail.com/basic_data.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/user_data/at@gmail.com/basic_data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/static/data/user_data/at@gmail.com/basic_data.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/user_data/att@gmail.com/basic_data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/static/data/user_data/att@gmail.com/basic_data.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/new-sign-up.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/new-sign-up.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/profile.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,19 +34,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;Python.app.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Python.app.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/aryav/Documents/GitHub/RHS-Club-Site",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\aryav\IdeaProjects\Roomate-Project\static\data" />
